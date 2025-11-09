@@ -1,0 +1,33 @@
+/**
+ * Node modules
+ */
+import { Router } from 'express';
+const router = Router();
+
+/**
+ * Routes
+ */
+import authRoutes from '@/routes/v1/auth';
+import userRoutes from '@/routes/v1/user';
+import placeRoutes from '@/routes/v1/place';
+import bookRoutes from '@/routes/v1/book';
+
+/**
+ * Root route
+ */
+router.get('/', (req, res) => {
+  res.status(200).json({
+    message: 'API is live',
+    status: 'OK',
+    version: '1.0.0',
+    docs: 'https://mydocs.com',
+    timestamp: new Date().toISOString(),
+  });
+});
+
+router.use('/auth', authRoutes);
+router.use('/user', userRoutes);
+router.use('/place', placeRoutes);
+router.use('/book', bookRoutes);
+
+export default router;

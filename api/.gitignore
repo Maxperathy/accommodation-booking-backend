@@ -1,0 +1,152 @@
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+jspm_packages/
+
+# ============================================
+# Build outputs
+# ============================================
+dist/
+build/
+*.tsbuildinfo
+*.js.map
+
+# ============================================
+# Environment variables
+# ============================================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# Runtime data
+# ============================================
+pids/
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+
+# ============================================
+# Testing & Coverage
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+.coverage
+
+# ============================================
+# Cache directories
+# ============================================
+.npm
+.eslintcache
+.node_repl_history
+.yarn-integrity
+.cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# ============================================
+# IDE and Editor files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.vscode-test/
+.tern-port
+
+# ============================================
+# OS files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# Temporary files
+# ============================================
+tmp/
+temp/
+*.tmp
+
+# ============================================
+# Uploaded files (if storing locally)
+# ============================================
+uploads/
+public/uploads/
+
+# ============================================
+# Database files
+# ============================================
+*.sqlite
+*.sqlite3
+*.db
+
+# ============================================
+# Cloudinary (if storing credentials locally)
+# ============================================
+cloudinary.json
+
+# ============================================
+# Process managers
+# ============================================
+.pm2/
+
+# ============================================
+# Deployment & Hosting
+# ============================================
+.vercel
+.serverless/
+.turbo
+
+# ============================================
+# Framework-specific (for future frontend)
+# ============================================
+.next/
+out/
+.nuxt/
+.fusebox/
+
+# ============================================
+# Local development
+# ============================================
+.local/
+.dynamodb/
+
+# ============================================
+# Notes
+# ============================================
+# package-lock.json should be committed for dependency consistency
+# yarn.lock should be committed if using Yarn
+# pnpm-lock.yaml should be committed if using pnpm
