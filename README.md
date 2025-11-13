@@ -953,12 +953,8 @@ The API uses Winston for structured logging:
 4. Ensure all tests pass
 5. Submit a pull request
 
-## 📄 License
+## 👥 Author
 
-[Your License Here]
-
-## 👥 Authors
-
-[Your Name/Team]
+[Maxperathy]
 
 **Note**: This API is designed for an accommodation booking platform. Ensure you have proper security measures in place before deploying to production. Always use HTTPS in production and keep your secrets secure.
